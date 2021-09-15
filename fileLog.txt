@@ -1,0 +1,10 @@
+* 0f0f735 Add file History
+*   0f03b56 Merge pull request #1 from VitalyYasukevich/task1
+|\  
+| * 57edb89 Some changes to an existing file
+| * def1e11 Initial multiline commit
+| * 0b4f215 task1 empty file1
+* | ce6169c Made another commit
+* | aaee9b9 Add file Readme.md
+|/  
+* 9cc8414 Initial commit
