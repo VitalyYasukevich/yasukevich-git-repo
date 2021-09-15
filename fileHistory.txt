@@ -1,0 +1,425 @@
+    1  pwd
+    2  cd..
+    3  cd /c/
+    4  mkdir git-test
+    5  cd git-test/
+    6  mkdir repo1
+    7  cd repo1/
+    8  ll
+    9  git init
+   10  ls -la
+   11  git status
+   12  touch file1.txt
+   13  ls
+   14  ll
+   15  git status
+   16  git add file1.txt 
+   17  git status
+   18  touch file2.txt
+   19  git status
+   20  vim file1.txt
+   21  vim file1.txt
+   22  less file1.txt
+   23  git status
+   24  git add .
+   25  git status
+   26  git commit
+   27  git config --global user.email "megalodon1504@gmail.com"
+   28  git config --global user.email
+   29  git config --global user.name "Vitaly Yasukevich"
+   30  git config --global user.name
+   31  git commit -m "Inicial commit"
+   32  git log
+   33  git log --oneline
+   34  vim file2.txt
+   35  cat file2.txt
+   36  git status
+   37  git add .
+   38  git commit -m "Add lines to file2.txt"
+   39  git log -- online
+   40  git log --oneline
+   41  git remote add origin https://github.com/VitalyYasukevich/git-test-rep1.git
+   42  git remote -v
+   43  git status
+   44  git log --oneline
+   45  git push
+   46  git push -u origin master
+   47  git status
+   48  git branch
+   49  git branch -a
+   50  git branch hometask
+   51  git branch -a
+   52  git checkout hometask
+   53  git log --oneline
+   54  vim newFile.txt
+   55  git status
+   56  git add .
+   57  git commit -m "Add newFile.txt"
+   58  git log --oneline
+   59  vim newFile.txt 
+   60  git add .
+   61  git commit -m "Add two more lines"
+   62  git status
+   63  ls
+   64  vim file1.txt
+   65  vim file2.txt
+   66  git atatus
+   67  git status
+   68  git commit -am "Add by one line to file1 and file2"
+   69  git status
+   70  git log --oneline
+   71  git checkout master
+   72  git checkout hometask
+   73  git checkout master
+   74  git checkout master
+   75  git checkout master
+   76  git checkout hometask
+   77  git checkout master
+   78  git checkout hometask
+   79  git push
+   80  git push -u origin hometask 
+   81  git status
+   82  git checkout master
+   83  git fetch
+   84  git status
+   85  git pull
+   86  git status
+   87  git log --oneline
+   88  history
+   89  history | less
+   90  history > history.txt
+   91  ls
+   92  cd ..
+   93  history
+   94  history | less
+   95  history > history.txt
+   96  ls
+   97  less
+   98  less history.txt
+   99  git log logs.txt
+  100  cd ropo1
+  101  git log
+  102  cd repo1/
+  103  git log
+  104  git log > logs.txt
+  105  ls
+  106  vim logs.txt
+  107  git status
+  108  git reflog
+  109  git log
+  110  git log --oneline
+  111  git log --oneline --graph
+  112  git log --graph
+  113  cd
+  114  ls
+  115  quit
+  116  q
+  117  exit
+  118  exit
+  119  pwd
+  120  cd /c/
+  121  mkdir Yasukevich-git-repo
+  122  cd Yasukevich-git-repo
+  123  git-init
+  124  git init
+  125  git status
+  126  git branch
+  127  git branch -a
+  128  git branch task1
+  129  touch file1.txt
+  130  ls
+  131  ll
+  132  git status
+  133  git add file1.txt
+  134  git status
+  135  git commit
+  136  git commit -m 
+  137  git commit -m "Initial commit"
+  138  git lon
+  139  git log --online
+  140  git commit -m "Initial commit"
+  141  git status
+  142  git remote add origin git@megalodon1504@gmail.com
+  143  git commit -m "Initial commit"
+  144  run
+  145  git commit
+  146  git config --global user.name
+  147  git commit -m "Initial commit"
+  148  git status
+  149  git log
+  150  git log --oneline
+  151  git remote add origin https://
+  152  https://
+  153  git remote add origin https://github.com/VitalyYasukevich/git-test-rep2.git
+  154  git remote add origin https://github.com/VitalyYasukevich/git-test-rep1.git
+  155  git remote add origin http://github.com/VitalyYasukevich/git-test-rep2.git
+  156  git remote -v
+  157  git status
+  158  git push
+  159  git push -u origin master
+  160  git remote add origin https://github.com/VitalyYasukevich/git-test-rep1.git
+  161  git romete -v
+  162  git remote -v
+  163  git status
+  164  git log --oneline
+  165  pwd
+  166  cd /c/
+  167  mkdir git-test
+  168  cd /c/git-test/
+  169  mkdir Yasukevich-git-repo
+  170  cd Yasukevich-git-repo
+  171  git init
+  172  git status
+  173  touch file1.txt
+  174  ls
+  175  ll
+  176  git add file1.txt
+  177  git status
+  178  git commit -m "Initial commit"
+  179  git log
+  180  git push -u origin master
+  181  git remote -v
+  182  git remote add origin https://github.com/VitalyYasukevich/git-test-rep1.git
+  183  git remote -v
+  184  git status
+  185  git log --oneline
+  186  quit
+  187  exit
+  188  pwd
+  189  cd /c/
+  190  cd /c/git-test/
+  191  mkdir Yasukevich-git-repo
+  192  cd /c/git-test/Yasukevich-git-repo/
+  193  pwd
+  194  ll
+  195  git init
+  196  ls -la
+  197  git status
+  198  touch file1.txt
+  199  ls
+  200  ll
+  201  git status
+  202  git add file1.txt 
+  203  git status
+  204   less file1.txt
+  205  git status
+  206  git add .
+  207   git status
+  208  git commit
+  209  git status
+  210  git config --global user.email
+  211  git commit -m "Initial commit"
+  212  git log
+  213     git remote add origin https://github.com/VitalyYasukevich/git-test-rep1.git
+  214  git remote -v
+  215  git status
+  216  git log --oneline
+  217  git push
+  218  git push -u origin master
+  219  git remote add origin https://github.com/VitalyYasukevich/git-test-rep2.git
+  220  git remote -v
+  221  exit
+  222  pwd
+  223  cd ..
+  224  cd /c/
+  225  mkdir homework
+  226  cd homework/
+  227  mkdir Yasukevich-git-repo
+  228  cd Yasukevich-git-repo/
+  229  git init
+  230  git branch
+  231  git branch -a
+  232  touch newfile1.txt
+  233  git add newfile1.txt 
+  234  git status
+  235  git commit -m "Initial commit"
+  236  git remote add origin https://github.com/VitalyYasukevich/git-homework-test1.git
+  237  git remote add origin https://github.com/VitalyYasukevich/git-homework-test1.git
+  238  git remote -v
+  239  git push -u origin master
+  240  git branch task1
+  241  git branch -a
+  242  git checkout task1 
+  243  touch newfile2.txt
+  244  git add newfile2.txt 
+  245  git status
+  246  git commit -m "Initial commit newfile2"
+  247  vim newfile2.txt
+  248  git status
+  249  git add .
+  250  git status
+  251  touch newfile3.txt
+  252  git add newfile3.txt
+  253  git status
+  254  git commit
+  255  git status
+  256  git log --lneline
+  257  git log --oneline
+  258  vim newfile3.txt
+  259  cat newfile3.txt
+  260  git status
+  261  git add .
+  262  git commit -m "Changes in newfile3.txt"
+  263  git log
+  264  git push -u origin master
+  265  git push -u origin task1
+  266  pwd
+  267  cd /c/
+  268  mkdir yasukevich-git-repo
+  269  git init
+  270  git remote add origin git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  271  git remote -v
+  272  touch myFirstFile.txt
+  273  touch file1.txt
+  274  cd /c/yasukevich-git-repo
+  275  touch myFirstfile.txt
+  276  del my
+  277  del myFirstfile.txt 
+  278  touch file1.txt
+  279  ll
+  280  ls
+  281  git add file1.txt
+  282  git status
+  283  git status
+  284  pwd
+  285  cd /c/
+  286  mkdir yasukevich-git repo
+  287  git init
+  288  cd /c/yasukevich-git
+  289  get remote add origin git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  290  git remote add origin git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  291  git remote -v
+  292  touch file1.txt
+  293  ll
+  294  ls
+  295  git add file1.txt
+  296  git status
+  297  pwd
+  298  cd /c/
+  299  mkdir yasukevich-git-repo
+  300  pwd
+  301  cd /c/
+  302  mkdir yasukevich-git-repo
+  303  cd /c/yasukevich-git-repo/
+  304  git init
+  305  git remote add origin git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  306  git remote -v
+  307  touch file1.txt
+  308  ll
+  309  ls
+  310  git add file1.txt
+  311  git status
+  312  git commit -m "Initial commit"
+  313  git config --global user.email "megalodon1504@gmailcom
+  314  git config --global user.email
+  315  git config --global user.email "megalodon1504@gmail.com
+  316  git config --global user.email "megalodon1504@gmailcom
+  317  git config --global user.email
+  318  git config --global user.email
+  319  q
+  320  git status
+  321  wq
+  322  q!
+  323  e
+  324  git log
+  325  git status
+  326  exit
+  327  exit
+  328  git init
+  329  exit
+  330  pwd
+  331  cd /c/
+  332  mkdir yasukevich-git-repo
+  333  git init
+  334  cd yasukevich-git-repo/
+  335  git init
+  336  git remote add origin git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  337  git remote -v
+  338  touch file1.txt
+  339  ll
+  340  ls
+  341  git add file1.txt
+  342  git status
+  343  git commit -m "Initial commit"
+  344  git status
+  345  git push -u origin master
+  346  git push -u origin master
+  347  git push -u origin master
+  348  git push -u origin master
+  349  git push -u origin yasukevich-git-repo
+  350  git push -u origin master
+  351  git push -u origin master
+  352  git task1
+  353  git branch task1
+  354  git status
+  355  git checkout task1
+  356  touch task1file1.txt
+  357  ls
+  358  git add task1file1.txt
+  359  git status
+  360  git commit -m "task1 empty file1"
+  361  git status
+  362  vim task1file1.txt
+  363  lecc task1file1.txt 
+  364  less task1file1.txt 
+  365  git add task1file1.txt 
+  366  git status
+  367  touch fask1file2.txt
+  368  ls
+  369  git add fask1file2.txt
+  370  git status
+  371  git commit
+  372  git status
+  373  git push -u origin task1
+  374  git status
+  375  cd ..
+  376  mkdir yasukevich-git-repo-clonned
+  377  cd yasukevich-git-repo
+  378  git clone git@github.com:VitalyYasukevich/yasukevich-git-repo.git
+  379  ls
+  380  git status
+  381  git branch -a
+  382  git checkout task1
+  383  git status
+  384  touch task1file3.txt
+  385  ls
+  386  vim file1.txt
+  387  git status
+  388  git add .
+  389  git status
+  390  git commit -m "Some changes to an existing file"
+  391  git push
+  392  git status
+  393  git log
+  394  git log --oneline
+  395  git checkout master
+  396  git status
+  397  touch readme.md
+  398  vim readme.md
+  399  vim readme.md
+  400  less readme.md
+  401  git add .
+  402  git status
+  403  git commit -m "Add file Readme.md"
+  404  git push
+  405  cd ..
+  406  cd yasukevich-git-repo
+  407  git status
+  408  git pull
+  409  vim task1file3.txt
+  410  git status
+  411  git add .
+  412  git commit -am "Made another commit"
+  413  git status
+  414  git log --oneline
+  415  git push
+  416  git log --oneline
+  417  git status
+  418  git checkout master
+  419  git pull
+  420  git log
+  421  git log --oneline
+  422  git log -oneline --graph
+  423  git log --oneline --graph
+  424  git checkout -b task2
+  425  history >fileHistory.txt
